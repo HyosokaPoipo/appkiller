@@ -51,6 +51,7 @@
             this.killerButton.TabIndex = 1;
             this.killerButton.Text = "Kill Process";
             this.killerButton.UseVisualStyleBackColor = true;
+            this.killerButton.Click += new System.EventHandler(this.killerButton_Click);
             // 
             // Form1
             // 
@@ -61,6 +62,7 @@
             this.Controls.Add(this.listBoxApps);
             this.Name = "Form1";
             this.Text = "AppKiller";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
