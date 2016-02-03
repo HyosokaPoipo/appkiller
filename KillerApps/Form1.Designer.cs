@@ -45,11 +45,11 @@
             // 
             // killerButton
             // 
-            this.killerButton.Location = new System.Drawing.Point(472, 214);
+            this.killerButton.Location = new System.Drawing.Point(469, 194);
             this.killerButton.Name = "killerButton";
-            this.killerButton.Size = new System.Drawing.Size(75, 23);
+            this.killerButton.Size = new System.Drawing.Size(88, 23);
             this.killerButton.TabIndex = 1;
-            this.killerButton.Text = "button1";
+            this.killerButton.Text = "Kill Process";
             this.killerButton.UseVisualStyleBackColor = true;
             // 
             // Form1
@@ -60,7 +60,7 @@
             this.Controls.Add(this.killerButton);
             this.Controls.Add(this.listBoxApps);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "AppKiller";
             this.ResumeLayout(false);
 
         }
